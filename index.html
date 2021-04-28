@@ -4,24 +4,50 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
+
+      /* fix margin collapsing - reset default styles using CSS */
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-size: 62.5%;
+      }
+      h1 {
+        margin-top: 0;
+        }
+      
       /* GLOBAL STYLES */
       a {
         color: rgba(255, 0, 0,.50);
       }
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 30vw;
+        width: 30vw;
+        font-size: 2em;
+      }
+      .full-hero li {
+        display: inline;
+      }
       /* SOCIAL STYLES */
       .social-link {
+        background: rgba(150,150,150,0.5);
         color: blue;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
       }
 
       /* BIO STYLES */
       .bio-wrapper {
-        font-size: 24px;
+        font-size: 2em;
       }
       .bio-box {
         border: 1px solid black;
-        width: 50%;
+        width: 75%;
         margin: 1%;
-        font-size: 0.5em;
+        font-size: 1em;
       }
       .bio-copy {
         margin: 1rem;
@@ -32,42 +58,44 @@
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+      </ul>
+    </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
       <div class="bio-box">
-        <h3>Michael Hartl</h3>
-        <a href="https://twitter.com/mhartl" class="social-link">here</a>
+        <h3>Khashmere snowz</h3>
+        <a href="https://twitter.com/ class="social-link">here</a>
         <div class="bio-copy">
           <p>
             Known for his dazzling charm, rapier wit, and unrivaled humility,
-            Michael is the creator of the
-            <a href="https://www.railstutorial.org/">Ruby on Rails
+            Masdasd is the creator of the
+            <a href="https://hello.com">asdasd
             Tutorial</a> and principal author of the
             <a href="https://learnenough.com/">
             Learn Enough to Be Dangerous</a> introductory sequence. Michael
             is also notorious as the founder of
-            <a href="http://tauday.com/">Tau Day</a> and author of
-            <a href="http://tauday.com/tau-manifesto"><em>The Tau
-            Manifesto</em></a>, but rumors that he's secretly a supervillain
-            are slightly exaggerated.
+            <a href="http:/asd.com/">Tau Day</a> and author of
+            <a href="http://tasdanifesto"><em>The Tau
+            Manifesto</em></a>, but rumors that he's seasdsupervillain
+            are slasderated.
           </p>
         </div>
       </div>
       <div class="bio-box">
-        <h3>Lee Donahoe</h3>
-        <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
+        <h3>Lasde</h3>
+        <a href="https://twitteasdeedonahoe" class="social-link">here</a>
         <div class="bio-copy">
           <p>
             When he's not literally swimming with sharks or hunting powder
@@ -78,14 +106,13 @@
         </div>
       </div>
       <div class="bio-box">
-        <h3>Nick Merwin</h3>
-        <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
+        <h3>Nicasd</h3>
+        <a href="https://twitter.comasderwin" class="social-link">here</a>
         <div class="bio-copy">
           <p>
-            You may have seen him shredding guitar live with Capital Cities on
-            Jimmy Kimmel, Conan, or The Ellen Show, but rest assured Nick is a
-            true nerd at heart. He's just as happy shredding well-spec'd lines
-            of code from a tour bus as he is from his kitchen table.
+            You may have seen him shrsdng guitar live with Caasdsd Cities on
+            Jimasdmel, Conan,asden Show, but rest assured Nisadis a
+            true nerd at heart. He's just as happy shreddtable.
           </p>
         </div>
       </div>
